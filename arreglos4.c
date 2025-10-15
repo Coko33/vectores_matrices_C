@@ -36,7 +36,7 @@ void invertir_vector(T_numeros numeros, int ML)
     int i;
     for (i = 0; i < ML - 1; i++)
     {
-        numeros_aux[i] = numeros[ML - 1 - i];
+        numeros_aux[i] = numeros[ML - i];
     }
     for (i = 0; i <= ML; i++)
     {
