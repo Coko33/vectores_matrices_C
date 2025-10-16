@@ -28,7 +28,7 @@ void mostrar_matriz(matriz_t matriz)
             {
                 cont++;
             }
-            if (matriz[i][j] < min)
+            else if (matriz[i][j] < min)
             {
                 min = matriz[i][j];
                 cont = 1;
